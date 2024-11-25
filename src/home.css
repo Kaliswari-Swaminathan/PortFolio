@@ -1,0 +1,38 @@
+/* Home Section Styles */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .intro {
+    max-width: 50%;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Image Styling */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 350px; /* Adjust size as needed */
+    height: 350px;  
+    object-fit: cover;
+    border: 3px solid #ddd;
+  }
+  
